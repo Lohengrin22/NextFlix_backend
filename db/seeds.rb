@@ -6,8 +6,8 @@
 
 User.destroy_all
 Show.destroy_all
-Review.destroy_all
 UserFavorite.destroy_all
+Review.destroy_all
 
 
 
@@ -41,9 +41,9 @@ user_favorites = [
 user_favorites.each {|user_favorite| UserFavorite.create(user_favorite)}
 
 reviews = [
-    {user_id: 1, review_num: 3, review_text: "It was okay"},
-    {user_id: 2, review_num: 1, review_text: "I hated it"},
-    {user_id: 2, review_num: 5, review_text: "The best show I've ever seen!"}
+    {review_num: 3, review_text: "It was okay", user_favorite_id: 1},
+    {review_num: 1, review_text: "I hated it", user_favorite_id: 2},
+    {review_num: 5, review_text: "The best show I've ever seen!", user_favorite_id: 3}
 ]
 
 reviews.each {|review| Review.create(review)}
