@@ -20,8 +20,14 @@ class UserFavoritesController < ApplicationController
   end
 
   def create
+    user_favorite = UserFavorite.create(params.permit(:user_id, :title, :image_url, :plot))
+    render json: user_favorite
+    
   end
 
-  def delete
+  def destroy
+    user_favorite = UserFavorite.find_by(id: params[:id])
+    user_favorite.destroy!
+    render json: {}
   end
 end
