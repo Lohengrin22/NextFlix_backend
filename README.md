@@ -1,4 +1,4 @@
-<img src="https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80" alt="NextFlix">
+<img src="https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&h=500&w=1352&q=80" alt="NextFlix">
 
 <h1 style="text-align: center">NextFlix_BackEnd</h1>
 
